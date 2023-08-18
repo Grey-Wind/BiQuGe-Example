@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <script type="4761a93f6ca6c985b9a855a1-text/javascript" src="./style/m.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>用户注册 - 笔趣阁</title>
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <script type="4761a93f6ca6c985b9a855a1-text/javascript" src="./style/app.js"></script>
+    <script type="4761a93f6ca6c985b9a855a1-text/javascript" src="./style/style.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <script type="4761a93f6ca6c985b9a855a1-application/javascript">login();</script>
+        <div class="header">
+            <div class="header_logo"><a href="/">笔趣阁</a></div>
+            <script type="4761a93f6ca6c985b9a855a1-application/javascript">panel();</script>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="/">首页</a></li>
+                <li><a href="/class1/">玄幻小说</a></li>
+                <li><a href="/class2/">仙侠小说</a></li>
+                <li><a href="/class3/">都市生活</a></li>
+                <li><a href="/class4/">穿越小说</a></li>
+                <li><a href="/class5/">游戏小说</a></li>
+                <li><a href="/class6/">科幻小说</a></li>
+                <li><a href="/class7/">次元同人</a></li>
+                <li><a href="/class8/">言情小说</a></li>
+                <li><a href="/wanben/">完本小说</a></li>
+                <li><a href="/top/">排行榜单</a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <div class="panel panel-primary">
+                <div class="panel-head">注册账号</div>
+                <div class="panel-body">
+                    <form id="registerForm" action="/register.html" method="post"
+                        style="max-width: 380px;margin: 20px auto;"
+                        onsubmit="if (!window.__cfRLUnblockHandlers) return false; return check()"
+                        data-cf-modified-4761a93f6ca6c985b9a855a1->
+                        <div class="form-group">
+                            <label for="Username">帐号：</label>
+                            <input type="text" class="form-control" name="uname" id="Username">
+                        </div>
+                        <div class="form-group">
+                            <label for="Password">密码：</label>
+                            <input type="password" class="form-control" name="pass" id="Password">
+                            <input type="hidden" name="repass" id="rePassword">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">邮箱：</label>
+                            <input type="text" class="form-control" name="email" id="Email">
+                        </div>
+                        <div class="form-group">
+                            <button name="submit" value="注册" class="btn btn-block btn-info">确认注册</button>
+                            <a href="/login.html" class="btn btn-block btn-link">已有账号，点击登录</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="4761a93f6ca6c985b9a855a1-text/javascript">
+    function check() {
+        var repass = $('#Password').val();
+        $('#rePassword').val(repass);
+        return true;
+    }
+</script>
+    <div class="footer">
+        <div class="footer_cont">
+            <script type="4761a93f6ca6c985b9a855a1-text/javascript">footer();</script>
+        </div>
+    </div>
+    <script src="/cdn-cgi/scripts/cloudflare-static/rocket-loader.min.js"
+        data-cf-settings="4761a93f6ca6c985b9a855a1-|49" defer></script>
+    <script>(function () { var js = "window['__CF$cv$params']={r:'7f86fc390adc0982',t:'MTY5MjMyODQ1Mi4yMjAwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/invisible.js',document.getElementsByTagName('head')[0].appendChild(_cpo);"; var _0xh = document.createElement('iframe'); _0xh.height = 1; _0xh.width = 1; _0xh.style.position = 'absolute'; _0xh.style.top = 0; _0xh.style.left = 0; _0xh.style.border = 'none'; _0xh.style.visibility = 'hidden'; document.body.appendChild(_0xh); function handler() { var _0xi = _0xh.contentDocument || _0xh.contentWindow.document; if (_0xi) { var _0xj = _0xi.createElement('script'); _0xj.innerHTML = js; _0xi.getElementsByTagName('head')[0].appendChild(_0xj); } } if (document.readyState !== 'loading') { handler(); } else if (window.addEventListener) { document.addEventListener('DOMContentLoaded', handler); } else { var prev = document.onreadystatechange || function () { }; document.onreadystatechange = function (e) { prev(e); if (document.readyState !== 'loading') { document.onreadystatechange = prev; handler(); } }; } })();</script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854"
+        integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg=="
+        data-cf-beacon='{"rayId":"7f86fc390adc0982","version":"2023.8.0","r":1,"token":"1726a9e502344822b9011430e7f84b37","si":100}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
